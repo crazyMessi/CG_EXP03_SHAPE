@@ -7,8 +7,8 @@
 //// mix前检查两个图片中的像素值
 //#define CHECK_PIC_DATA 
 //
-//// 检查网格生成是否正常
-//#define CHECK_MESH
+// 检查网格生成是否正常
+#define CHECK_MESH
 
 //强行去黑线
 #define DATAFIXING 
@@ -23,7 +23,7 @@
 #include "img.h"
 
 // 路径插值次数
-#define GRID_MESH_SUB_TIME 10
+#define GRID_MESH_SUB_TIME 10     
 
 void transforming(unsigned int argc, string* argv);
 
